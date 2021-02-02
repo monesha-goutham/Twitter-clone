@@ -1,0 +1,38 @@
+.widgets {
+  flex: 0.3;
+  /* background-color: lemonchiffon; */
+  padding-left: 20px;
+}
+
+.widgets__input {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  border-radius: 20px;
+  color: gray !important;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  color: gray;
+  margin-left: 20px;
+}
+
+.widgets__holder {
+  margin-top: 30px;
+  background-color: #f5f8fa;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.widgets__holder > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.widgets__holder > .widgets__share-button {
+  margin-left: auto !important;
+}

@@ -1,0 +1,30 @@
+.feed {
+  flex: 0.4;
+  /* background-color: lemonchiffon; */
+  /* min width should not go below the content's size */
+  min-width: fit-content;
+  border-right: 1px solid var(--twitter-background);
+  overflow-y: scroll;
+}
+
+/* hide the scrollbar - chrome/safari */
+/* but keep the functionailty of scrolling */
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  /* jus to ensure the header stays on top always */
+  z-index: 100;
+
+  background-color: white;
+  border: 1px solid var(--twitter-background);
+  padding: 20px 15px;
+}
+
+.feed__header > h2 {
+  font-weight: 800;
+  font-size: 20px;
+}
